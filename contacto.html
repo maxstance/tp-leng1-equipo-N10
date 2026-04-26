@@ -24,25 +24,51 @@
 
 <main>
 
-  <section>
-    <h2>Contacto</h2>
+  <h2>sumate como voluntacio</h2>
 
-    <article>
-    <h3>Información de contacto</h3>
-        <p>Email: <a href="">info@recircuitosolidario.org</a></p>
-        <p>Teléfono: +54 11 1234-5678</p>
-        <p>Instagram: <a href="">@recircuitosolidario</a></p>
-        <p>Facebook: <a href="">ReCircuitoSolidario27</a></p>
-    </article>
+    <p>completa el formulario: <a href="mail" ></a></p>
 
-   
-
-  </section>
-
+      <form action="/enviar" method="post">
+        <label for="nombre">nombre y apellido </label>
+        <input type="text" id="nombre" name="nombre" placeholder="EJ:jalena marrok" required>
+          <br>
+        <label for="email">correo electronico</label>
+        <input type="email" name="email" id="email" placeholder="tucorreo@hotmail.com" required>
+          <br>
+        <label for="telefono">telefono</label>
+        <input type="tel" name="telefono" id="telefono" placeholder="+54 11 2233-4455">
+          <br>
+        <label for="programa"> programas de interes</label>
+        <select name="programa" id="programa" required>
+          <option value="">elegir programa...</option>
+          <option value="pldc">Asignacion Universal por hijo</option>
+          <option value="met">Tarjeta alimentaria</option>
+          <option value="ec">Potenciar trabajo</option>
+         </select>
+         <br>
+        <label for="disponibilidad"> disponibilidad</label>
+        <select name="disponibilidad" id="disponibilidad" required>
+          <option value="">elegi una opcion</option>
+          <option value="1">mañana</option>
+          <option value="2">tarde</option>
+          <option value="3">noche</option>
+        </select>
+          <br>
+        <label for="mensaje">¿por que sumarte ?</label>
+          <textarea name="mensaje" id="mensaje" rows="5" placeholder="contanos un poco..."></textarea>
+          <br>
+          <button type="submit">enviar</button>
+      </form>
+        
 </main>
 
 <footer>
-  <p>© 2026 ReCircuito Solidario</p>
+  <p>© 2026 ReCircuito Solidario  </p>
+  <P>Información de contacto</P>
+  <p>Email: <a href="">info@recircuitosolidario.org</a></p>
+  <p>Teléfono: +54 11 1234-5678</p>
+  <p>Instagram: <a href="">@recircuitosolidario</a></p>
+  <p>Facebook: <a href="">ReCircuitoSolidario27</a></p>
 </footer>
 
 </body>
