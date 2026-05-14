@@ -5,6 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>inicio-ReCircuito Solidario</title>
+  <link rel="stylesheet" href="CSS/estilo.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -24,8 +28,23 @@
 
 <main>
 
-
-
+  <h2>sumate como voluntacio</h2>
+  <p>completa el formulario: <a href="mail" ></a></p>
+  <section id="formulario">
+    <form action="/enviar" method="post">
+        <label for="nombre">nombre y apellido </label>
+        <input type="text" id="nombre" name="nombre" placeholder="EJ:julian hernades" required>
+  <br>
+        <label for="email">correo electronico</label>
+        <input type="email"name="email" id="email" placeholder="tucorreo@hotmail.com" required>
+  <br>
+        <label for="telefono">telefono</label>
+            <input type="tel" name="telefono" id="telefono" placeholder="+54 11 2233-4455">
+        <button type="submit">enviar</button>    
+    </form>
+    </section>    
+  <br>
+               
   <section>
     <h2>Nuestra Misión</h2>
      <p>
@@ -33,7 +52,7 @@
      promover la inclusión digital en comunidades vulnerables.
     </p>
   </section>
-
+  <br>
   <section>
     <h2>Nuestra Visión</h2>
     <p>
@@ -42,7 +61,7 @@
     </p>
   </section>
 
-  
+  <br>
 
   <section>
     <h2>Objetivos</h2>
@@ -56,7 +75,7 @@
   </section>
 
 </main>
-
+<br>
 <footer>
   <p>© 2026 ReCircuito Solidario</p>
 </footer>
