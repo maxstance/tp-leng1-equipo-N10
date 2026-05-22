@@ -1,16 +1,21 @@
 :root{
-    --color-primario:#1A2B4A;
-    --color-acento:#028090;
+    --color-primario:  #3e7a41;
+    --color-secundario: #2E7D32;
+    --color-acento:#7bcf7f;
+    --color-fondo: #4f9269;
+    --color-texto: #263238;
     --fuente: "Inter", sans-serif;
 }
 /* Reset básico*/
-*{ box-sizing: border-box;
+*{ 
+    box-sizing: border-box;
     margin: 0; padding: 0;
 }
 body{
+    background-color: var(--color-fondo);
     font-family: var(--fuente);
     font-size: 16px;
-    color: var(--color-primario);
+    color: var(--color-texto);
     max-width: auto;
     margin: 0 auto;
     padding: 0 1rem;
@@ -22,12 +27,17 @@ header{
     padding: 1rem;
 }
 
+footer{
+    background: var(--color-secundario);
+}
+
 nav a:hover{
-    text-decoration: underline;
+    background-color: var(--color-acento);
+    padding: 2rem;
 }
 
 nav a {
-    color: var(--color-acento);
+    color: var(--color-texto);
     text-decoration: none;
 }
 
