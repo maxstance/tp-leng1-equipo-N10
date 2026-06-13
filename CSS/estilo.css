@@ -20,6 +20,7 @@ header{
     background: var(--color-primario);
     color: white;
     padding: 1rem;
+   
 }
 
 nav a:hover{
@@ -44,4 +45,27 @@ ul li{
     font-size: 1rem;
     margin-right: auto;
     justify-content: center;
+}
+
+article{
+    padding: 1%;
+
+}
+#proceso ol{
+    display:flex;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 2rem; 
+    margin: 1rem;
+}
+#proceso ol li{
+    font-size: 1rem;
+    margin-right: auto;
+    justify-content: center;
+
+}
+.navbar{
+    display: flex;
+    position: relative;
+
 }
