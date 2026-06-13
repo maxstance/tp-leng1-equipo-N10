@@ -1,8 +1,8 @@
 :root{
-    --color-primario:  #3e7a41;
-    --color-secundario: #2E7D32;
-    --color-acento:#7bcf7f;
-    --color-fondo: #4f9269;
+    --color-primario:  #3e697a;
+    --color-secundario:  #3e697a;
+    --color-acento:   #4d8399;
+    --color-fondo: #a9beb096;
     --color-texto: #263238;
     --fuente: "Inter", sans-serif;
 }
