@@ -48,28 +48,26 @@
 
   <h2>sumate como voluntario</h2>
 
-    <p>completa el formulario: <a href="mail" ></a></p>
-
       <form action="/enviar" method="post">
         <label for="nombre">nombre y apellido </label>
-        <input type="text" id="nombre" name="nombre" placeholder="EJ:jalena marrok" required>
+        <input type="text" id="formulario" id="nombre" name="nombre" placeholder="EJ:jalena marrok" required>
           <br>
         <label for="email">correo electronico</label>
-        <input type="email" name="email" id="email" placeholder="tucorreo@hotmail.com" required>
+        <input type="email" id="formulario" name="email" id="email" placeholder="tucorreo@hotmail.com" required>
           <br>
         <label for="telefono">telefono</label>
-        <input type="tel" name="telefono" id="telefono" placeholder="+54 11 2233-4455">
+        <input type="tel" id="formulario" name="telefono" id="telefono" placeholder="+54 11 2233-4455">
           <br>
         <label for="programa"> programas de interes</label>
-        <select name="programa" id="programa" required>
+        <select name="programa" id="formulario" id="programa" required>
           <option value="">elegir programa...</option>
           <option value="pldc">Asignacion Universal por hijo</option>
           <option value="met">Tarjeta alimentaria</option>
           <option value="ec">Potenciar trabajo</option>
          </select>
          <br>
-        <label for="disponibilidad"> disponibilidad</label>
-        <select name="disponibilidad" id="disponibilidad" required>
+        <label for="disponibilidad" > disponibilidad</label>
+        <select name="disponibilidad" id="formulario" id="disponibilidad" required>
           <option value="">elegi una opcion</option>
           <option value="1">mañana</option>
           <option value="2">tarde</option>
@@ -77,9 +75,9 @@
         </select>
           <br>
         <label for="mensaje">¿por que sumarte ?</label>
-          <textarea name="mensaje" id="mensaje" rows="5" placeholder="contanos un poco..."></textarea>
+          <textarea name="mensaje" id="formulario" id="mensaje"  rows="5" placeholder="contanos un poco..."></textarea>
           <br>
-          <button type="submit">enviar</button>
+          <button type="submit" id="formulario" >enviar</button>
       </form>
         
 </main>
